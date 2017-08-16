@@ -6,7 +6,7 @@ JINSMEMEフレームワークをUnityで利用できるようにしたプラグ�
 正式なシーケンスは確認中
 Unity 5.5.0f3 と SDKVer 1.1.3で作成しています。
 
-＜事前作業＞
+## 事前作業
 1."Assets/Builds/Frameworks"内に"MEMELib.framework"を入れてください。
 
  [JINS MEME Developerサイト]
@@ -23,11 +23,14 @@ Unity 5.5.0f3 と SDKVer 1.1.3で作成しています。
 
  [+]ボタンクリックで"MEMELib.framework"を追加
 
+
 これでビルドできると思います。
 
 （一応動くバージョンであるため今後さまざまなところに修正が入る可能性があります。）
 
-＜サンプル動作手順＞
+
+
+## サンプル動作手順
 
 端末のBluetoothをONにする
 
