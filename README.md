@@ -8,13 +8,13 @@ Unity 5.5.0f3 と SDKVer 1.1.3で作成しています。
 
 ＜事前作業＞
 1."Assets/Builds/Frameworks"内に"MEMELib.framework"を入れてください。
-　[JINS MEME Developerサイト]
-  https://jins-meme.github.io/sdkdoc/
+ [JINS MEME Developerサイト]
+ https://jins-meme.github.io/sdkdoc/
 2. 1でアクセスしたJINSサイトにアクセスしてアプリ枠登録をしてください。
-  発行されたアプリID/アプリSecretを[TestMEME(.cs).appClientId]と[TestMEME(.cs).appClientSecret]に転記してください。
+ 発行されたアプリID/アプリSecretを[TestMEME(.cs).appClientId]と[TestMEME(.cs).appClientSecret]に転記してください。
 3.iOSビルど後にXCodeプロジェクトの[Build Phases]->[Copy Files]に以下の設定をしてください。
-　Destination : Frameworks
-  [+]ボタンクリックで"MEMELib.framework"を追加
+ Destination : Frameworks
+ [+]ボタンクリックで"MEMELib.framework"を追加
 
 これでビルドできると思います。
 （一応動くバージョンであるため今後さまざまなところに修正が入る可能性があります。）
